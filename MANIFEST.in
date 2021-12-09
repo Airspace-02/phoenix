@@ -1,0 +1,6 @@
+include phoenix/VERSION
+recursive-include phoenix *
+recursive-include phoenix/augmentation/uatg *
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]

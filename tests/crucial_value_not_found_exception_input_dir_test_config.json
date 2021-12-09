@@ -1,0 +1,18 @@
+{
+    "mask_dir" : "tests/masks",
+    "output_dir": "tests/output",
+    "sample" : 6,
+    "multi_threaded" : false,
+    "batch_ingestion": false,
+    "run_all" : false,
+    "operations": [
+        {
+            "operation": "BrightenScene",
+            "operation_module" : "phoenix.augmentation",
+            "args": {
+                "probability": 1,
+                "brightness": 1
+              }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "input_dir" : "tests/images",
+    "mask_dir" : "tests/masks",
+    "output_dir": "tests/output",
+    "annotation_dir": "tests/annotation",
+    "annotation_format": "pascal_voc",
+    "sample" : 6,
+    "multi_threaded" : false,
+    "batch_ingestion": false,
+    "run_all" : false,
+    "operations": [
+        {
+            "operation": "SunFlare",
+            "operation_module" : "phoenix.augmentation",
+            "args": {
+                "probability": 1
+            }
+        }
+    ]
+}

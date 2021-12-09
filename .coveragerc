@@ -1,0 +1,7 @@
+[run]
+omit = 
+    phoenix/augmentation/tests/*
+    phoenix/utils/tests/*
+    phoenix/decorators.py
+    phoenix/_config.py
+    phoenix/utils/testing.py

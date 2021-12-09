@@ -1,0 +1,27 @@
+{
+    "input_dir" : "tests/images",
+    "mask_dir" : "tests/masks",
+    "output_dir": "tests/output",
+    "annotation_dir": "tests/annotation",
+    "annotation_format": "pascal_voc",
+    "sample" : 9,
+    "multi_threaded" : false,
+    "run_all" : false,
+    "batch_ingestion": false,
+    "shuffle": false,
+    "debug": true,
+    "process_and_yield": false,
+    "save_annotation_mask" : true,
+    "operations":[
+        {
+            "operation": "BrightenScene",
+            "operation_module" : "phoenix.augmentation",
+            "args": {
+                "probability": 1,
+                "brightness" : 1,
+                "is_annotation" : true,
+                "annotation_label" : 1
+            }
+        }
+    ]
+}
