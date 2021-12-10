@@ -5,6 +5,7 @@
 
 ![Phoenix](https://github.com/Airspace-02/phoenix/workflows/Sphinx/badge.svg?branch=master)
 
+```
 ,-.----.                                                                          
 \    /  \     ,---,                                                               
 |   :    \  ,--.' |                                          ,--,                 
@@ -19,7 +20,8 @@
 |   | :     |  | ,'       `----'   |   :    | |   |/       ;  :    ; |   :/\  \ ; 
 `---'.|     `--''                   \   \  /  '---'        |  ,   /  `---'  `--`  
   `---`                              `----'                 ---`-'                
-                                                                                  
+  
+```
 
 Phoenix is a CV library for massively scalable image data augmentation specifically built
 for automotive deep learning usecases.
